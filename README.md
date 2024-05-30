@@ -10,9 +10,6 @@ The project is structured as follows:
 
 - `data.yaml`: Contains the configuration for the dataset.
 - `datasets`: Contains the images and labels for training and validation.
-- `run.py`: The main script to augment the dataset.
-- `utils`: Contains utility scripts and notebooks for data augmentation and dataset handling.
-- `yolo_baseline.py`: The script that implements the YOLO algorithm.
 
 ## Repo Tree
 
@@ -36,16 +33,14 @@ The project is structured as follows:
 
 ## Result
 
-(TBD: Add a section here describing the results of your project, including any metrics or visualizations.)
-
+With a strategy mainly focusing on data and taking advantage of famous existing architectures, our team had a model accuracy of 86.5% on the original val set
 ## Reproduce
 
-To reproduce the results, follow these steps:
+To reproduce the results, follow the installation steps:
 
-1. Clone the repository.
-2. Install the necessary dependencies: `pip install -r requirements.txt`.
-3. Run the `run.py` script.
-   (TBD: Add more steps here.)
+1. Install pip requirements
+pip install -r requirements.txt
+After the installation, you can start by running the training scripts provided and evaluate on your own data.
 
 ## Authors
 
