@@ -20,15 +20,10 @@ The project is structured as follows:
 │   └── labels              # Contain augmentated, train, validation labels
 ├── data.yaml
 ├── notebooks
-│   └── augmentation.ipynb  # Experiments with augmentation
+│   └── Yolov8.ipynb  # Experiments with augmentation
 ├── README.md
 ├── requirements.txt        # Dependencies to run included files in this repo
-├── run.py
-├── utils
-│   ├── augmentation       # Implement image transformations
-│   ├── dataset.py
-│   └── __init__.py
-└── yolo_baseline.py
+├── Yolov8.ipynb
 ```
 
 ## Result
